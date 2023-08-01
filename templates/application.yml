@@ -1,0 +1,14 @@
+# templates/application.yml
+spring:
+  application:
+    name: {{ company.lower().replace(' ', '-') }}-{{ profile }}
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: info
+
+{{ profile }}:
+  # Add profile-specific configurations here

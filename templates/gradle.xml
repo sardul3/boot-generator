@@ -1,0 +1,17 @@
+// templates/gradle.xml
+plugins {
+    id 'java'
+}
+
+group '{{ company.lower().replace(' ', '-') }}'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Add any default dependencies here
+}
+
+// Add any custom configurations here

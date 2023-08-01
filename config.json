@@ -1,0 +1,99 @@
+{
+    "java_versions": {
+      "8": "1.8",
+      "11": "11",
+      "16": "16"
+    },
+    "dependency_aliases": {
+      "web": [
+        {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-web",
+          "version": "2.5.3"
+        }
+      ],
+      "jpa": [
+        {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-data-jpa",
+          "version": "2.5.3"
+        }
+      ],
+      "security": [
+        {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-security",
+          "version": "2.5.3"
+        }
+      ],
+      "actuator": [
+        {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-actuator",
+          "version": "2.5.3"
+        }
+      ],
+      "validation": [
+        {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-validation",
+          "version": "2.5.3"
+        }
+      ],
+      "mail": [
+        {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-mail",
+          "version": "2.5.3"
+        }
+      ],
+      "oauth2": [
+        {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-oauth2-client",
+          "version": "2.5.3"
+        },
+        {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-oauth2-resource-server",
+          "version": "2.5.3"
+        }
+      ],
+      "test": [
+        {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-test",
+          "version": "2.5.3"
+        }
+      ],
+      "thymeleaf": [
+        {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-thymeleaf",
+          "version": "2.5.3"
+        }
+      ],
+      "webflux": [
+        {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-webflux",
+          "version": "2.5.3"
+        }
+      ],
+      "mongodb": [
+        {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-data-mongodb",
+          "version": "2.5.3"
+        }
+      ],
+      "amqp": [
+        {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-amqp",
+          "version": "2.5.3"
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,26 @@
+<!-- templates/maven.xml -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>{{ company.lower().replace(' ', '-') }}</groupId>
+    <artifactId>{{ project_name.lower().replace(' ', '-') }}</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <java.version>{{ java_version }}</java.version>
+    </properties>
+
+    <dependencies>
+        {% for dependency in dependencies %}
+        <dependency>
+            <groupId>{{ dependency.groupId }}</groupId>
+            <artifactId>{{ dependency.artifactId }}</artifactId>
+            <version>{{ dependency.version }}</version>
+        </dependency>
+        {% endfor %}
+    </dependencies>
+
+    <!-- Add any custom configurations here -->
+</project>
