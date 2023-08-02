@@ -4,9 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>{{ spring_boot_parent.group_id }}</groupId>
+        <artifactId>{{ spring_boot_parent.artifact_id }}</artifactId>
+        <version>{{ spring_boot_parent.version }}</version>
+    </parent>
+
     <groupId>{{ company.lower().replace(' ', '-') }}</groupId>
     <artifactId>{{ project_name.lower().replace(' ', '-') }}</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
+    <packaging>{{ packaging }}</packaging>
 
     <properties>
         <java.version>{{ java_version }}</java.version>
